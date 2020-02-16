@@ -1,1 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/.gitignore
+.idea/ZeppelinRemoteNotebooks/
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/sonarlint/
+flink-demo.iml
+
