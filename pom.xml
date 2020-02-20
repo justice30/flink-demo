@@ -18,8 +18,14 @@
         <flink.version>1.9.0</flink.version>
         <lombok.version>1.18.10</lombok.version>
         <netty.version>4.1.45.Final</netty.version>
+        <snakeyaml.version>1.25</snakeyaml.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>${snakeyaml.version}</version>
+        </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
