@@ -20,6 +20,8 @@
         <netty.version>4.1.45.Final</netty.version>
         <snakeyaml.version>1.25</snakeyaml.version>
     </properties>
+
+
     <dependencies>
         <dependency>
             <groupId>org.yaml</groupId>
@@ -81,6 +83,12 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
