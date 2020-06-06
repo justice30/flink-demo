@@ -11,14 +11,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <guava.version>28.2-jre</guava.version>
-        <fastjson.version>1.2.62</fastjson.version>
-        <kafka.version>2.3.1</kafka.version>
-<!--        <flink.version>1.10.0</flink.version>-->
-        <flink.version>1.9.0</flink.version>
-        <lombok.version>1.18.10</lombok.version>
-        <netty.version>4.1.45.Final</netty.version>
-        <snakeyaml.version>1.25</snakeyaml.version>
+        <guava.version>29.0-jre</guava.version>
+        <fastjson.version>1.2.70</fastjson.version>
+        <kafka.version>2.5.0</kafka.version>
+        <flink.version>1.10.0</flink.version>
+        <lombok.version>1.18.12</lombok.version>
+        <netty.version>4.1.50.Final</netty.version>
+        <snakeyaml.version>1.26</snakeyaml.version>
+        <elasticsearch.version>7.7.0</elasticsearch.version>
     </properties>
 
 
@@ -79,6 +79,27 @@
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-metrics-core</artifactId>
             <version>${flink.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>transport</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-client</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>${elasticsearch.version}</version>
         </dependency>
     </dependencies>
 
