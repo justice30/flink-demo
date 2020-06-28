@@ -13,10 +13,11 @@ import java.util.List;
 public class FlinkApp {
     public static void main(String[] args) {
         log.info("app启动");
-        YamlConf yamlConf = new YamlConf();
-        String yamlPath = "src/main/resources/application.yml";
-        List list = yamlConf.getYamlConf(yamlPath);
-        log.info("{}",list.size());
-        list.forEach(i->log.info("{}",i));
+//        YamlConf yamlConf = new YamlConf();
+//        String yamlPath = "src/main/resources/application.yml";
+//        List list = yamlConf.getYamlConf(yamlPath);
+//        log.info("{}",list.size());
+//        list.forEach(i->log.info("{}",i));
+
     }
 }
